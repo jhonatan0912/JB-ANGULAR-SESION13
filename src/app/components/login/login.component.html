@@ -1,0 +1,19 @@
+<div class="container">
+  <form class="d-flex flex-column border w-50 m-auto mt-5 p-3" [formGroup]="loginForm" (ngSubmit)="login()">
+    <h1 class="text-center">Login</h1>
+    <label for="username">Username:</label>
+    <mat-form-field appearance="fill">
+      <mat-label>username</mat-label>
+      <input type="text" matInput id="username" autocomplete="off" formControlName="username" #username>
+    </mat-form-field>
+
+    <label for="password">Password:</label>
+    <mat-form-field appearance="fill">
+      <mat-label>password</mat-label>
+      <input type="password" matInput id="password" autocomplete="off" formControlName="password" #password>
+    </mat-form-field>
+
+    <button mat-button color="primary">Basic</button>
+  </form>
+</div>
+

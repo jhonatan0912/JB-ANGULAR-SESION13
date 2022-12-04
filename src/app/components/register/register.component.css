@@ -1,0 +1,8 @@
+nav {
+  background-color: rgb(103, 55, 184);
+  color: #fff;
+}
+
+.fa-sign-out-alt {
+  cursor: pointer;
+}
