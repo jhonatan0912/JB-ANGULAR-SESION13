@@ -10,20 +10,20 @@
 
 <div class="container mt-5">
   <form [formGroup]="registerForm" (ngSubmit)="register()" class="d-flex flex-column gap-4 m-auto w-25">
-    <h1>Registrar Usuario</h1>
+    <h1>Register User</h1>
     <label for="name">
-      <input type="text" id="name" placeholder="Ingresa Nombre" formControlName="name" #name>
+      <input type="text" id="name" placeholder="Insert name" formControlName="name" #name>
     </label>
 
     <label for="username">
-      <input type="text" id="username" placeholder="Ingresa Username" formControlName="userName" #userName>
+      <input type="text" id="username" placeholder="Insert username" formControlName="userName" #userName>
     </label>
 
     <label for="password">
-      <input type="password" id="password" placeholder="Ingresa Password" formControlName="password" #password>
+      <input type="password" id="password" placeholder="Insert password" formControlName=" password" #password>
     </label>
     <label>
-      <button type="submit">GUARDAR</button>
+      <button type="submit">SAVE</button>
     </label>
   </form>
 </div>
